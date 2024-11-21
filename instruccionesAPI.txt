@@ -1,0 +1,18 @@
+Enlace a la documentación de la API REST:
+https://www.postman.com/santperz711/my-workspace/documentation/qb3oi3a/documentacin-api-usuarios-desafio4?workspaceId=fbea0344-e066-4482-86e5-47b16dab24e0
+
+para poder usar esta apiu se debe crear una cuenta en postman o iniciar sesion si ya posee una cuenta
+
+
+
+Instrucciones para usar la API:
+1. Haz una petición POST a /api/auth/login con un email y contraseña válidos para obtener un JWT.
+2. Usa el JWT en el header "Authorization" para acceder a las rutas protegidas.
+3. Consulta la documentación completa en el enlace anterior para más detalles.
+
+Base de Datos - obligatorio para el uso de esta api
+la base de datos que fui utilizada para la creacion de esta api fue una hecha con Mysql, no se hicieron pruebas para 
+determinar si se podia usar otro gestor de base de datos.
+
+la base de datos solo debe tener obligatoriamente una tabla llamada usuarios con los campos, id, name,email y password
+si desea crear mas tablas no hay ningun inconveniente 
